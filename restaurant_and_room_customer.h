@@ -1,13 +1,31 @@
 #ifndef RESTAURANT_AND_ROOM_CUSTOMER_H
 #define RESTAURANT_AND_ROOM_CUSTOMER_H
-#include<string>
 #include"Customer.h"
+#include<string>
 using namespace std;
 
-class Restaurant_and_room_customer{
+class Restaurant_and_room_customer : public Customer{
 private:         
-    int customertype;
+    // this data type will be used for the bill
+    double bill;
+    //this data type will be used for the room number.
+    int room;
+    // this data type will be used for the type of the customer.  
+    int dish;
 public:
-    void viewtotalbill();
+    // this is the default constructor
+    Restaurant_and_room_customer();
+    //this function will return the room that the customer is staying in.
+    int viewroom();
+    //this function will return the dish that the customer is having.
+    int viewdish();
+    // this function will be used to calculate the total bill of the customer 
+    int viewtotalbill();
+    // this function will be used to allocate a dish
+    void allocatedish(int dish);
+    // this function will be used to allocate a room
+    void allocateroom(int roomid);
+    //this function will be used to checkout.
+    void checkout();
 };
 #endif
