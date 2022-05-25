@@ -1,3 +1,13 @@
+
+
+/****
+ 
+ This is the room_customer.h file that has infomration for the room customer which inherits stuff from the
+ customer class.
+
+**/
+
+
 #ifndef ROOM_CUSTOMER_H
 #define ROOM_CUSTOMER_H
 #include"Customer.h"

@@ -1,3 +1,13 @@
+
+
+/****
+ 
+ This is the room.h file that has infomration for the room and the information that is needed to create a room such
+ as it's type,price and wheter a room is empty or booked.
+
+**/
+
+
 #ifndef room_h
 #define room_h
 #include <string>

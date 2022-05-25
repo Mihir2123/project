@@ -1,3 +1,13 @@
+
+/****
+ 
+ This is the restaurant_customer.h file that has infomration for the restaurant customer which inherits stuff from the
+ customer class.
+
+**/
+
+
+
 #ifndef RESTAURANT_CUSTOMER_H
 #define RESTAURANT_CUSTOMER_H
 #include<string>

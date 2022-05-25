@@ -1,3 +1,9 @@
+/****
+ 
+ This is the hotel file contains the information related to the hotel and the interface.
+
+**/
+
 #ifndef hotel_h
 #define hotel_h
 #include <string>

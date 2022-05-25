@@ -1,3 +1,13 @@
+
+
+/****
+ 
+ This is the restaurant_room.h file that contains the information for the restaurant customer and the room customer. 
+ this class will inherit from the customer class as its a type of a customer.
+
+**/
+
+
 #ifndef RESTAURANT_AND_ROOM_CUSTOMER_H
 #define RESTAURANT_AND_ROOM_CUSTOMER_H
 #include"Customer.h"

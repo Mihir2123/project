@@ -1,3 +1,9 @@
+/**
+  This is the restaurant.h file that contains the information for the restaurant class.
+
+ **/
+
+
 #ifndef restaurant_h
 #define restaurant_h
 #include <string>
